@@ -1,0 +1,54 @@
+.months-con {
+  position: relative;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.months {
+  display: flex;
+  padding-left: 0px;
+  border: 1px solid #b2b3b5;
+  list-style: none;
+  margin-top: 0px;
+  margin: 0px;
+}
+
+.each-month {
+  width: 22%;
+  list-style: none;
+  border: 1px solid #f1f1f2;
+  padding-left: 0px;
+  margin: 0px;
+}
+
+.gap-con {
+  background-color: white;
+  height: 26.5px;
+  border: 1px solid #e8e8e9;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.month-head {
+  background-color: #736a66;
+  padding-left: 0px;
+  height: 26.5px;
+  text-align: center;
+  padding-top: 3px;
+  color: white;
+}
+
+.empty-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d8d9da;
+  height: 26.5px;
+  border: 1px solid #e8e8e9;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.projectCard {
+  width: 80;
+}

@@ -1,0 +1,199 @@
+.project-display {
+  background-color: #ffffff;
+  min-height: 650px;
+  width: 80vw;
+  margin-bottom: 30px;
+}
+.time-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+  padding: 0px 20px 0px 20px;
+  height: 6%;
+}
+.logo-image {
+  height: 50px;
+}
+
+.plan-title {
+  color: rgb(108, 111, 138);
+  font-weight: bold;
+  margin: 0px;
+}
+
+.resource-card-main-container {
+  display: flex;
+  padding: 0 20px 0 20px;
+  height: 60vh;
+  margin-top: 5px;
+}
+.cards {
+  height: 170px;
+  border: 1px solid black;
+  width: 98%;
+  display: flex;
+  background-color: #ffffff;
+  justify-content: center;
+  margin: 2px;
+  align-items: center;
+  border-radius: 8px;
+  /* padding: 10px; */
+}
+.card1 {
+  position: absolute;
+  top: 0px;
+}
+.card2 {
+  position: absolute;
+  top: 140px;
+}
+.card3 {
+  position: absolute;
+  top: 280px;
+}
+.cards-container {
+  position: relative;
+  width: 15%;
+  /* display: none; */
+}
+.resource-card-container {
+  display: flex;
+  border: 1px solid black;
+  padding: 0px;
+  height: 46px;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  transition: transform 0.2s ease-in-out;
+}
+
+.resource-card-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.name-and-heart-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 44px;
+  text-align: center;
+  flex-grow: 1;
+  background-color: #ffffff;
+}
+.skill-holder-name {
+  padding: 0 0 0 2px;
+  margin: 0px 0px;
+  font-size: 14px;
+}
+.requested {
+  color: darkorange;
+}
+.name-and-heart {
+  margin-top: 0px;
+  font-size: 20px;
+}
+.month-and-skill-container {
+  height: 45px;
+  width: 44px;
+  padding: 0 0 0 8px;
+}
+.red-color {
+  color: red;
+}
+.black-color {
+  color: black;
+}
+
+.red-color-backgound {
+  background-color: red;
+}
+.black-color-backgound {
+  background-color: black;
+}
+.month-details {
+  margin: 0 0 0 4px;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 0;
+}
+.month-and-skill-heart {
+  color: #ffffff;
+  font-size: 16px;
+  margin-top: 0px;
+  padding: 0;
+}
+
+.request-btn-container {
+  position: absolute;
+  z-index: 5;
+}
+.request-name-and-heart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+.request-name-and-heart {
+  color: darkorange;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.request-month-and-skill-heart {
+  font-size: 16px;
+  color: #ffffff;
+}
+.request-month-and-skill-container {
+  background-color: darkorange;
+  height: 45px;
+  width: 35px;
+  padding: 0 0 0 5px;
+}
+.request-btn {
+  background-color: rgb(191, 191, 191);
+  border: none;
+  border-radius: 3px;
+  padding: 8px;
+  color: rgb(99, 99, 99);
+  cursor: pointer;
+}
+.cancel-request-btn {
+  background-color: rgb(246, 58, 58);
+  font-size: '8px';
+  margin-left: '3px';
+  cursor: pointer;
+}
+.request-resource-card-container {
+  display: flex;
+  border: 1px solid black;
+  padding: 0px;
+  height: 46px;
+  width: 60%;
+  margin-bottom: 15px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  margin: 15px 0 0 15px;
+  transition: transform 0.2s ease-in-out;
+  position: absolute;
+  top: 48px;
+  z-index: 5;
+}
+
+.cross-icon-container {
+  width: 16px;
+  height: 40px;
+  padding: 3px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.cross-icon {
+  font-size: 10px;
+  margin-top: 11px;
+  color: chocolate;
+}

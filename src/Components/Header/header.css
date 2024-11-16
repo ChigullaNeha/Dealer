@@ -1,0 +1,30 @@
+.board-logo {
+  height: 4vh;
+  width: 9vw;
+}
+.title-board {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ffffff;
+  color: #201e1e75;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 7px;
+  align-items: center;
+  font-size: 10px;
+}
+.resourceboard-title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  gap: 0px;
+  color: #6c6d70;
+  font-size: 30px;
+}
+.arrow-icon {
+  font-size: 70px;
+  font-weight: 200;
+}
+.time-arrow {
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+}

@@ -1,0 +1,167 @@
+.whole-containerr {
+    background-image: url('/src/assets/background.png');
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    justify-content: space-around;
+    align-items: center;
+}
+.dealer-container {
+  width: 90%;
+  text-align: right;
+  color: white;
+  margin-top: 60px;
+  font-size: 23px;
+}
+.containerr {
+  height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dealer-name {
+  color: #ffffff;
+  text-align: right;
+  min-width: 100%;
+  padding-right: 40px;
+  font-size: 20px;
+}
+.playerss-containerr {
+  background-color: #9999FF;
+  height: 500px;
+  width: 290px;
+  position: relative;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+.projectss-containerr {
+    background-color: #9999FF;
+  height: 500px;
+  width: 290px;
+  position: relative;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 8px;
+}
+.each-project {
+  background-color: #333399;
+  height: 50px;
+  width: 238px;
+  padding: 6px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.cards-containerr {
+    height: 500px !important;
+    width: 850px !important;
+    display: flex !important;
+    justify-content: center !important;
+    flex-wrap: wrap;
+    margin-top: 8px;
+  }
+  
+.ul-containerr {
+  height: 490px;
+  width: 850px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pm-containerr {
+    background-color: #9999FF;
+    color: white;
+    height: 220px;
+    width: 240px;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6px;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+.pm-containerr:hover {
+    background-color: #7A7AFF;
+    transform: scale(1.05); 
+}
+.btns-containerr {
+  display: flex;
+  height: 50px;
+  width: 240px;
+  justify-content: space-around;
+  align-items: center;
+}
+.btnn {
+  background-color: black;
+  height: 36px;
+  width: 100px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.each-player {
+    background-color: #333399;
+    height: 34px;
+    width: 200px;
+    padding: 4px;
+    border-top-right-radius: 48px;
+    border-top-left-radius: 48px;
+    border-bottom-left-radius: 48px;
+    border-bottom-right-radius: 48px;
+    text-align: center;
+    margin-top: 50px;
+}
+.drop-player {
+  background-color: #333399;
+    height: 42px;
+    width: 210px;
+    font-size: 14px;
+    padding: 6px;
+   border-radius: 8px;
+   margin-top: 12px;
+}
+.pm-heading {
+  margin-top: 8px;
+}
+.close-btn {
+  background-color: #333399;
+  border: none;
+  color: white;
+  height: 24px;
+  cursor: pointer;
+  width: 60px;
+}
+.loading-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+.shake {
+  animation: shake 0.5s ease;
+}

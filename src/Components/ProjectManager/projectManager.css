@@ -1,0 +1,32 @@
+.background-image {
+  background-image: url('../../assets/background.png');
+  background-size: cover;
+  min-height: 100vh;
+  padding: 30px;
+}
+.project-and-main-container {
+  display: flex;
+}
+.not-found-btn-container {
+  text-align: center;
+  margin-top: 25%;
+}
+
+.not-found-btn {
+  padding: 15px;
+  font-size: 20px;
+}
+.playerName {
+  background-color: rgb(240, 239, 255);
+  height: 46px;
+  padding: 10px;
+  border-radius: 3px;
+}
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+}
+.project-display-main-container {
+  width: 85%;
+}

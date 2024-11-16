@@ -1,0 +1,38 @@
+.error-response-container {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-msg-inner-container {
+  width: 400px;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 10px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-response-msg {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(153, 59, 240);
+}
+
+.retry-btn {
+  background-color: #a212d9;
+  width: 80px;
+  padding: 6px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+}

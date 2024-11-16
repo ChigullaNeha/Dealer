@@ -1,0 +1,59 @@
+.project-card-con {
+  height: 30vh;
+  position: absolute;
+  top: 0;
+  margin-top: 30px;
+
+  /* margin-left: 218px; */
+}
+
+.project-head {
+  background-color: #d62413;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  height: 26.5px;
+  gap: 5px;
+}
+
+.clock-icon {
+  color: #d62413;
+  background-color: white;
+  font-size: 24px;
+  border-radius: 50%;
+  border: 0.5px;
+}
+
+.time-container-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 5px;
+}
+
+.each-demand {
+  background-color: #d8d9da;
+  height: 30px;
+  border: 1px solid #e8e8e9;
+  text-align: center;
+  padding-top: 5px;
+  width: 22%;
+  border: 2px solid black;
+}
+
+.each-demand-con {
+  width: 35.2%;
+  list-style: none;
+  border: 1px solid #f1f1f2;
+  padding-left: 0px;
+  background-color: #ececed;
+  margin: 0px;
+}
+
+.heart-icon {
+  color: #d62413;
+  font-size: 20px;
+}

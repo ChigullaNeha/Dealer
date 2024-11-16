@@ -1,0 +1,38 @@
+.score-heading-container {
+  padding-top: 150px;
+}
+
+.score-heading {
+  margin: auto;
+  color: #ffffff;
+  width: 90%;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  background-color: #3a1772;
+  color: #ffffff;
+  font-weight: 500;
+  margin: auto;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 12px;
+  font-weight: 500;
+}
+
+tr:nth-child(even) {
+  background-color: #4e318e;
+}
+
+.total {
+  text-align: right;
+  font-weight: 600;
+}

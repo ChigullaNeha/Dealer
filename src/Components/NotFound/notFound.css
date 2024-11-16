@@ -1,0 +1,48 @@
+.not-found-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
+  gap: 20px;
+}
+
+.not-found-text {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  font-family: Helvetica;
+  text-shadow:
+    0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 6px 1px rgba(0, 0, 0, 0.1),
+    0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3),
+    0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+.not-found-button {
+  background-color: #d3cbdf;
+  color: #4a4a4a;
+  padding: 12px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  letter-spacing: 1px;
+  scale: 1;
+}
+
+.not-found-button:hover {
+  scale: 1.1;
+}

@@ -1,0 +1,61 @@
+.invite-player-main-container {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.welcome-player-text {
+  font-size: 24px;
+  align-self: flex-start;
+  color: azure;
+}
+
+.invite-link-text {
+  padding: 10px;
+  border: 4px solid #e4b1f0;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 1px;
+  outline: none;
+  color: #e5d9f2;
+  background: transparent;
+  text-decoration: none;
+}
+
+.invite-link-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 400px;
+  width: 100%;
+}
+
+.link-copied-text {
+  font-size: 12px;
+  font-weight: 500;
+  color: #e7e5e5;
+}
+
+.copy-error-msg-container {
+  width: 400px;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 20px;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.clipboard-error-msg {
+  color: cadetblue;
+  font-size: 18px;
+  font-weight: 500;
+}
